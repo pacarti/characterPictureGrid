@@ -9,5 +9,8 @@ grid = [['.', '.', '.', '.', '.', '.'],
         ['.', '.', '.', '.', '.', '.']]
 
 
+
 for y in range(8):
-    print(grid[y], end = '')
+    print('')
+    for x in range(5):
+        print(grid[y][x], end = '')
